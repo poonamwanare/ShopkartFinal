@@ -1,144 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="177878" started-at="2019-08-27T08:21:13Z" finished-at="2019-08-27T08:24:11Z">
+  <suite name="Default suite" duration-ms="50326" started-at="2019-08-27T10:37:17Z" finished-at="2019-08-27T10:38:07Z">
     <groups>
     </groups>
-    <test name="Testnew" duration-ms="177878" started-at="2019-08-27T08:21:13Z" finished-at="2019-08-27T08:24:11Z">
-      <class name="com.shopcart.dashboard.testcases.DashboardPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.dashboard.testcases.DashboardPageTest@754ba872]" name="setUp" is-config="true" duration-ms="12080" started-at="2019-08-27T08:21:52Z" finished-at="2019-08-27T08:22:04Z">
+    <test name="Default test" duration-ms="50326" started-at="2019-08-27T10:37:17Z" finished-at="2019-08-27T10:38:07Z">
+      <class name="com.shopcart.catlog.testcases.CategoriesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.catlog.testcases.CategoriesPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="19827" started-at="2019-08-27T10:37:17Z" finished-at="2019-08-27T10:37:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="connectToPrestashopButton()[pri:0, instance:com.shopcart.dashboard.testcases.DashboardPageTest@754ba872]" name="connectToPrestashopButton" duration-ms="10005" started-at="2019-08-27T08:22:04Z" finished-at="2019-08-27T08:22:14Z">
+        <test-method status="PASS" signature="editCategoryTest()[pri:1, instance:com.shopcart.catlog.testcases.CategoriesPageTest@6d4b1c02]" name="editCategoryTest" duration-ms="29637" started-at="2019-08-27T10:37:37Z" finished-at="2019-08-27T10:38:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- connectToPrestashopButton -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.dashboard.testcases.DashboardPageTest@754ba872]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-27T08:22:14Z" finished-at="2019-08-27T08:22:14Z">
+        </test-method> <!-- editCategoryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.catlog.testcases.CategoriesPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="812" started-at="2019-08-27T10:38:07Z" finished-at="2019-08-27T10:38:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.dashboard.testcases.DashboardPageTest@754ba872]" name="setUp" is-config="true" duration-ms="20371" started-at="2019-08-27T08:23:42Z" finished-at="2019-08-27T08:24:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dashboardPageTitleandLabelTest()[pri:1, instance:com.shopcart.dashboard.testcases.DashboardPageTest@754ba872]" name="dashboardPageTitleandLabelTest" duration-ms="8530" started-at="2019-08-27T08:24:02Z" finished-at="2019-08-27T08:24:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dashboardPageTitleandLabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.dashboard.testcases.DashboardPageTest@754ba872]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-27T08:24:11Z" finished-at="2019-08-27T08:24:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.shopcart.dashboard.testcases.DashboardPageTest -->
-      <class name="com.shopcart.customers.testcases.AddressesPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.customers.testcases.AddressesPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="31176" started-at="2019-08-27T08:23:10Z" finished-at="2019-08-27T08:23:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getaddresspagetitleTest()[pri:1, instance:com.shopcart.customers.testcases.AddressesPageTest@e25b2fe]" name="getaddresspagetitleTest" duration-ms="633" started-at="2019-08-27T08:23:41Z" finished-at="2019-08-27T08:23:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getaddresspagetitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.customers.testcases.AddressesPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-08-27T08:23:42Z" finished-at="2019-08-27T08:23:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.shopcart.customers.testcases.AddressesPageTest -->
-      <class name="com.shopcart.login.testcses.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.login.testcses.LoginPageTest@204f30ec]" name="setUp" is-config="true" duration-ms="35453" started-at="2019-08-27T08:21:13Z" finished-at="2019-08-27T08:21:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.shopcart.login.testcses.LoginPageTest@204f30ec]" name="loginTest" duration-ms="2262" started-at="2019-08-27T08:21:48Z" finished-at="2019-08-27T08:21:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopcart.login.testcses.LoginPageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="895" started-at="2019-08-27T08:21:51Z" finished-at="2019-08-27T08:21:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.shopcart.login.testcses.LoginPageTest -->
-      <class name="com.shopcart.dashboard.testcases.PrestShopPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopcart.dashboard.testcases.PrestShopPageTest@4dfa3a9d]" name="setUp" is-config="true" duration-ms="22974" started-at="2019-08-27T08:22:14Z" finished-at="2019-08-27T08:22:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="clickOnPopupButtonTest()[pri:0, instance:com.shopcart.dashboard.testcases.PrestShopPageTest@4dfa3a9d]" name="clickOnPopupButtonTest" duration-ms="31698" started-at="2019-08-27T08:22:37Z" finished-at="2019-08-27T08:23:08Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="onesignal-popover-allow-button"]"}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-SJFLRU4', ip: '192.168.0.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\SHYAM\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b4e186a63c260dc6e8c67490eb4e59c0
-*** Element info: {Using=xpath, value=//*[@id="onesignal-popover-allow-button"]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="onesignal-popover-allow-button"]"}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-SJFLRU4', ip: '192.168.0.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\SHYAM\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b4e186a63c260dc6e8c67490eb4e59c0
-*** Element info: {Using=xpath, value=//*[@id="onesignal-popover-allow-button"]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy11.click(Unknown Source)
-at com.shopcart.dashboard.pages.PrestaShopPage.clickOnPopupButton(PrestaShopPage.java:29)
-at com.shopcart.dashboard.testcases.PrestShopPageTest.clickOnPopupButtonTest(PrestShopPageTest.java:44)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnPopupButtonTest -->
-      </class> <!-- com.shopcart.dashboard.testcases.PrestShopPageTest -->
-    </test> <!-- Testnew -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.shopcart.catlog.testcases.CategoriesPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

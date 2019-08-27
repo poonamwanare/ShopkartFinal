@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.shopcart.ExtentReportListener.ExtentReporterNG"/>
-  </listeners>
-  <test thread-count="5" name="Testnew(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.shopcart.dashboard.testcases.PrestShopPageTest">
+      <class name="com.shopcart.catlog.testcases.CategoriesPageTest">
         <methods>
-          <include name="clickOnPopupButtonTest"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="editCategoryTest"/>
         </methods>
-      </class> <!-- com.shopcart.dashboard.testcases.PrestShopPageTest -->
+      </class> <!-- com.shopcart.catlog.testcases.CategoriesPageTest -->
     </classes>
-  </test> <!-- Testnew(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
