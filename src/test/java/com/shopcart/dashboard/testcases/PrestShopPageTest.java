@@ -38,7 +38,9 @@ public class PrestShopPageTest extends TestBase{
 	public void clickOnPopupButtonTest() throws Exception
 	{
 		dashboardpage.clickOnConnectToPSMarketplaceButton();
+		System.out.println("Clicked on Connect to PrestaShop Button");
 		prestashoppage = dashboardpage.clickOnPrestshopAddonLink();
+		System.out.println("Clicked on PrestaShop addons link");
 		Thread.sleep(3000);
 		prestashoppage.clickOkButton();
 		prestashoppage.clickOnPopupButton();

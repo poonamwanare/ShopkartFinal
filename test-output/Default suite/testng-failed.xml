@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.shopcart.catlog.testcases.CategoriesPageTest">
+      <class name="com.shopcart.dashboard.testcases.PrestShopPageTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="clickOnPopupButtonTest"/>
           <include name="setUp"/>
-          <include name="editCategoryTest"/>
         </methods>
-      </class> <!-- com.shopcart.catlog.testcases.CategoriesPageTest -->
+      </class> <!-- com.shopcart.dashboard.testcases.PrestShopPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

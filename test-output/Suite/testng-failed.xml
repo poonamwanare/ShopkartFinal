@@ -6,6 +6,13 @@
   </listeners>
   <test thread-count="5" name="Testnew(failed)">
     <classes>
+      <class name="com.shopcart.dashboard.testcases.DashboardPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="connectToPrestashopButton"/>
+        </methods>
+      </class> <!-- com.shopcart.dashboard.testcases.DashboardPageTest -->
       <class name="com.shopcart.dashboard.testcases.PrestShopPageTest">
         <methods>
           <include name="clickOnPopupButtonTest"/>

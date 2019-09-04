@@ -2,7 +2,7 @@ package com.shopcart.catlog.testcases;
 
 import java.io.FileNotFoundException;
 
-
+import org.apache.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -21,9 +21,12 @@ public class CategoriesPageTest extends TestBase{
 	DashboardPage dashboardpage;
 	CategoriesPage categoriespage;
 	
+	Logger log = Logger.getLogger(CategoriesPageTest.class);
+	
 	@BeforeMethod
 	public void setUp() throws Exception
 	{
+		log.info("Launching Chrome Browser");
 		initialization();
 		try {
 			loginpage = new LoginPage();
@@ -41,7 +44,7 @@ public class CategoriesPageTest extends TestBase{
 		categoriespage.editCategories();
 		
 		boolean topradiobtn = categoriespage.radioButtonEnabledorDisabled();
-		System.out.println("Radio Button of Tops Enabled = true and Disabled "
+		log.info("Radio Button of Tops Enabled = true and Disabled "
 				+ "= false: "+topradiobtn);
 		
 		categoriespage.collapseAllButton();

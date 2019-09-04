@@ -34,7 +34,7 @@ public class DashboardPage extends TestBase{
 	@FindBy(xpath="//a[@class='btn btn-info' and @style='white-space: unset;']")
 	WebElement connecttoprestamarketplace;
 	
-	@FindBy(xpath="//*[@id=\"modal_addons_connect\"]/div/div/div[1]/h4/a")
+	@FindBy(xpath="//a[ contains(text(),'PrestaShop Addons')]")
 	WebElement clickprestashopaddons;
 	
 	

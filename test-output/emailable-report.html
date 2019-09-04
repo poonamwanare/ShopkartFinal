@@ -8,11 +8,57 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">50,326</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Testnew</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">187,381</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.shopcart.catlog.testcases.CategoriesPageTest</td><td><a href="#m0">editCategoryTest</a></td><td rowspan="1">1566902257403</td><td rowspan="1">29637</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testnew &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.shopcart.dashboard.testcases.DashboardPageTest</td><td><a href="#m0">connectToPrestashopButton</a></td><td rowspan="1">1567505912569</td><td rowspan="1">20721</td></tr><tr class="failedodd"><td rowspan="1">com.shopcart.dashboard.testcases.PrestShopPageTest</td><td><a href="#m1">clickOnPopupButtonTest</a></td><td rowspan="1">1567505949661</td><td rowspan="1">27049</td></tr><tr><th colspan="4">Testnew &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.shopcart.customers.testcases.AddressesPageTest</td><td><a href="#m2">getaddresspagetitleTest</a></td><td rowspan="1">1567506003762</td><td rowspan="1">334</td></tr><tr class="passedodd"><td rowspan="1">com.shopcart.dashboard.testcases.DashboardPageTest</td><td><a href="#m3">dashboardPageTitleandLabelTest</a></td><td rowspan="1">1567506016735</td><td rowspan="1">5330</td></tr><tr class="passedeven"><td rowspan="1">com.shopcart.login.testcses.LoginPageTest</td><td><a href="#m4">loginTest</a></td><td rowspan="1">1567505893201</td><td rowspan="1">1971</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.shopcart.catlog.testcases.CategoriesPageTest#editCategoryTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testnew</h2><h3 id="m0">com.shopcart.dashboard.testcases.DashboardPageTest#connectToPrestashopButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-SJFLRU4&apos;, ip: &apos;192.168.0.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\SHYAM\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e1966e7ed670a408f9b1a626ed96220e
+*** Element info: {Using=xpath, value=//a[@class=&apos;btn btn-info&apos; and @style=&apos;white-space: unset;&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.shopcart.dashboard.pages.DashboardPage.clickOnConnectToPSMarketplaceButton(DashboardPage.java:256)
+	at com.shopcart.dashboard.testcases.DashboardPageTest.connectToPrestashopButton(DashboardPageTest.java:107)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.shopcart.dashboard.testcases.PrestShopPageTest#clickOnPopupButtonTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-SJFLRU4&apos;, ip: &apos;192.168.0.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\SHYAM\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d247c9927d38c1284d8b30799884dc1f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.shopcart.dashboard.pages.DashboardPage.clickOnPrestshopAddonLink(DashboardPage.java:262)
+	at com.shopcart.dashboard.testcases.PrestShopPageTest.clickOnPopupButtonTest(PrestShopPageTest.java:42)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.shopcart.customers.testcases.AddressesPageTest#getaddresspagetitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.shopcart.dashboard.testcases.DashboardPageTest#dashboardPageTitleandLabelTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.shopcart.login.testcses.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

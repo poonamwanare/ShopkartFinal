@@ -2,6 +2,7 @@ package com.shopcart.base;
 
 import java.io.File;
 
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -18,6 +19,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class TestBase {
 	public static Properties prop;
 	public static WebDriver driver;
+	
+	
 	
 	
 	public TestBase() throws FileNotFoundException
